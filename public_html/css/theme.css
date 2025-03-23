@@ -9489,4 +9489,31 @@ header .navbar-nav .nav-item .nav-link {
     header .navbar-nav .nav-item .nav-link {
       padding: 0; } }
 
+.herro-section {
+  padding: 8.9rem 0 9rem;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: right top; }
+  .herro-section .herro-content {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px; }
+    .herro-section .herro-content .herro-title {
+      margin-bottom: 1.7rem; }
+    .herro-section .herro-content .herro-description {
+      margin-bottom: 5.9rem; }
+
+.services-section {
+  padding: 11rem 0 11.3rem; }
+  .services-section .services-section-title {
+    margin-bottom: 6.1rem; }
+  .services-section .services-section-item a {
+    text-decoration: none; }
+  .services-section .services-section-item .services-item-title {
+    color: #000;
+    padding-left: 24px; }
+    .services-section .services-section-item .services-item-title:hover {
+      color: #1A77CD; }
+  .services-section .services-section-item .services-item-images {
+    margin-bottom: 0; }
+
 /*# sourceMappingURL=theme.css.map */

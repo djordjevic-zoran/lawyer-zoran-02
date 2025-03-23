@@ -1,0 +1,22 @@
+
+.services-section{
+    padding: 11rem 0 11.3rem;
+    .services-section-title{
+        margin-bottom: 6.1rem;
+    }
+    .services-section-item{
+        a{
+            text-decoration: none;
+        }
+        .services-item-title{
+            color: #000;
+            padding-left: 24px;
+            &:hover{
+                color: $blue;
+            }
+        }
+        .services-item-images{
+            margin-bottom: 0;
+        }
+    }
+}
