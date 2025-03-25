@@ -9550,4 +9550,31 @@ header .navbar-nav .nav-item .nav-link {
       width: 100%;
       transition: 0.3s linear; }
 
+.info-section {
+  padding: 7.8rem 0 9.4rem;
+  background-color: #11284B; }
+  .info-section .info-section-title {
+    margin-bottom: 5.2rem; }
+  .info-section .info-description p, .info-section .info-description a {
+    color: #586C88;
+    text-decoration: none; }
+  .info-section .info-icon {
+    padding-right: 1rem; }
+
+footer {
+  padding: 2.8rem 0 2.7rem; }
+  footer .copy-right {
+    color: #586C88;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-weight: 500; }
+  footer .social .social-icon {
+    color: #000;
+    font-size: 2rem;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: 0.3s linear; }
+    footer .social .social-icon:hover {
+      transform: rotate(360deg); }
+
 /*# sourceMappingURL=theme.css.map */

@@ -1,0 +1,19 @@
+
+$info-bg: $dark-blue;
+$info-text: #586C88;
+.info-section{
+    padding: 7.8rem 0 9.4rem;
+    background-color: $info-bg;
+    .info-section-title{
+        margin-bottom: 5.2rem;
+    }
+    .info-description{
+        p, a{
+            color: $info-text;
+            text-decoration: none;
+        }
+    }
+    .info-icon{
+        padding-right: 1rem;
+    }
+}
