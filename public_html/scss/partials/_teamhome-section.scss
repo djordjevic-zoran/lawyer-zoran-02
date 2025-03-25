@@ -1,0 +1,44 @@
+
+.team-home-section{
+    padding: 8.1rem 0 6.8rem;
+    background-color: #F6F5F6;
+    .team-home-title{
+        margin-bottom: 6.2rem;
+    }
+    .team-item{
+        .team-item-title{
+            margin-bottom: 2.1rem;
+        }
+        .team-item-description{
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .team-item-linkedin{
+            font-size: 3rem;
+            color: #444;
+            margin-bottom: 2rem;
+            @media(min-width: 992px){
+                margin-bottom: 0;
+            }
+            &:hover{
+                color: $primary;
+            }
+        }
+        .team-item-image{
+            display: block;
+            overflow: hidden;
+            &:hover{
+                img{
+                    transform: scale(1.1);
+                }
+            }
+            img{
+                display: block;
+                width: 100%;
+                transition: 0.3s linear;
+            }
+        }
+    }
+}

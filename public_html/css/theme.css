@@ -240,10 +240,10 @@ h3, .h3 {
       font-size: 2.8rem; } }
 
 h4, .h4 {
-  font-size: calc(1.365rem + 1.38vw); }
+  font-size: calc(1.345rem + 1.14vw); }
   @media (min-width: 1200px) {
     h4, .h4 {
-      font-size: 2.4rem; } }
+      font-size: 2.2rem; } }
 
 h5, .h5 {
   font-size: calc(1.325rem + 0.9vw); }
@@ -6843,7 +6843,7 @@ textarea.form-control-lg {
   font-size: calc(1.405rem + 1.86vw) !important; }
 
 .fs-4 {
-  font-size: calc(1.365rem + 1.38vw) !important; }
+  font-size: calc(1.345rem + 1.14vw) !important; }
 
 .fs-5 {
   font-size: calc(1.325rem + 0.9vw) !important; }
@@ -9350,7 +9350,7 @@ textarea.form-control-lg {
   .fs-3 {
     font-size: 2.8rem !important; }
   .fs-4 {
-    font-size: 2.4rem !important; }
+    font-size: 2.2rem !important; }
   .fs-5 {
     font-size: 2rem !important; }
   .fs-6 {
@@ -9458,6 +9458,9 @@ h1, .h1, .h1 {
 h2, .h2, .h2 {
   line-height: 4.266rem; }
 
+h4, .h4, .h4 {
+  line-height: 2.5rem; }
+
 header .navbar-brand {
   max-width: 100px;
   padding: 0; }
@@ -9515,5 +9518,36 @@ header .navbar-nav .nav-item .nav-link {
       color: #1A77CD; }
   .services-section .services-section-item .services-item-images {
     margin-bottom: 0; }
+
+.team-home-section {
+  padding: 8.1rem 0 6.8rem;
+  background-color: #F6F5F6; }
+  .team-home-section .team-home-title {
+    margin-bottom: 6.2rem; }
+  .team-home-section .team-item .team-item-title {
+    margin-bottom: 2.1rem; }
+  .team-home-section .team-item .team-item-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden; }
+  .team-home-section .team-item .team-item-linkedin {
+    font-size: 3rem;
+    color: #444;
+    margin-bottom: 2rem; }
+    @media (min-width: 992px) {
+      .team-home-section .team-item .team-item-linkedin {
+        margin-bottom: 0; } }
+    .team-home-section .team-item .team-item-linkedin:hover {
+      color: #1A77CD; }
+  .team-home-section .team-item .team-item-image {
+    display: block;
+    overflow: hidden; }
+    .team-home-section .team-item .team-item-image:hover img {
+      transform: scale(1.1); }
+    .team-home-section .team-item .team-item-image img {
+      display: block;
+      width: 100%;
+      transition: 0.3s linear; }
 
 /*# sourceMappingURL=theme.css.map */
