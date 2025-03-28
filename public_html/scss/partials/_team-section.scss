@@ -1,0 +1,40 @@
+
+
+
+.team-our-section{
+    padding: 11.4rem 0 12.7rem;
+    .team-our-title{
+        margin-bottom: 5.6rem;
+    }
+    .team-our-item{
+        margin-bottom: 5.9rem;
+        .team-out-image{    
+            margin-bottom: 2.2rem;
+            overflow: hidden;
+            &:hover{
+                img{
+                    transform: scale(1.2);
+                }
+            }
+            img{
+                transition: 0.3s linear;
+                display: block;
+                width: 100%;
+            }
+        }
+        .team-our-name{
+            a{
+            font-size: 2rem;
+            line-height: 2rem;
+            color: #000;
+            &:hover{
+                color: $primary;
+            }
+        }
+        }
+        .team-our-text{
+            font-size: 1.4rem;
+            line-height: 2rem;
+        }
+    }
+}

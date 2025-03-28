@@ -9610,4 +9610,29 @@ footer {
     list-style: none;
     padding-left: 0; }
 
+.team-our-section {
+  padding: 11.4rem 0 12.7rem; }
+  .team-our-section .team-our-title {
+    margin-bottom: 5.6rem; }
+  .team-our-section .team-our-item {
+    margin-bottom: 5.9rem; }
+    .team-our-section .team-our-item .team-out-image {
+      margin-bottom: 2.2rem;
+      overflow: hidden; }
+      .team-our-section .team-our-item .team-out-image:hover img {
+        transform: scale(1.2); }
+      .team-our-section .team-our-item .team-out-image img {
+        transition: 0.3s linear;
+        display: block;
+        width: 100%; }
+    .team-our-section .team-our-item .team-our-name a {
+      font-size: 2rem;
+      line-height: 2rem;
+      color: #000; }
+      .team-our-section .team-our-item .team-our-name a:hover {
+        color: #1A77CD; }
+    .team-our-section .team-our-item .team-our-text {
+      font-size: 1.4rem;
+      line-height: 2rem; }
+
 /*# sourceMappingURL=theme.css.map */
