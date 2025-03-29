@@ -1,0 +1,35 @@
+
+
+
+.our-team-section{
+    padding: 9.2rem 0 12.9rem;
+    .our-team-title{
+        margin-bottom: 8px;
+    }
+    .out-team-text{
+        margin-bottom: 2rem;
+        font-size: 1.8rem;
+        line-height: 2rem;
+        letter-spacing: 1.14%;
+    }
+    .our-team-linkedin{
+        font-size: 3rem;
+        color: #444;
+        margin-bottom: 3rem;
+        &:hover{
+            color: $primary;
+        }
+        @media(min-width:992px){
+            margin-bottom: 5rem;
+        }
+    }
+    .our-team-image{
+        position: sticky;
+        -webkit-position: sticky;
+        top: 0;
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+}

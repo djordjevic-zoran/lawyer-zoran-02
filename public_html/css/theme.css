@@ -9635,4 +9635,30 @@ footer {
       font-size: 1.4rem;
       line-height: 2rem; }
 
+.our-team-section {
+  padding: 9.2rem 0 12.9rem; }
+  .our-team-section .our-team-title {
+    margin-bottom: 8px; }
+  .our-team-section .out-team-text {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    letter-spacing: 1.14%; }
+  .our-team-section .our-team-linkedin {
+    font-size: 3rem;
+    color: #444;
+    margin-bottom: 3rem; }
+    .our-team-section .our-team-linkedin:hover {
+      color: #1A77CD; }
+    @media (min-width: 992px) {
+      .our-team-section .our-team-linkedin {
+        margin-bottom: 5rem; } }
+  .our-team-section .our-team-image {
+    position: sticky;
+    -webkit-position: sticky;
+    top: 0; }
+    .our-team-section .our-team-image img {
+      display: block;
+      width: 100%; }
+
 /*# sourceMappingURL=theme.css.map */
